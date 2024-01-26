@@ -1,3 +1,5 @@
+package arrays;
+
 public class MajorityElement {
     public static int majorityElement(int []nums) {
         int element=-1,count=0;

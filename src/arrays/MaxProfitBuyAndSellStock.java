@@ -1,3 +1,5 @@
+package arrays;
+
 public class MaxProfitBuyAndSellStock {
     private static int bestTimeToBuyAndSellStock(int[] prices) {
         int profit=0,min=Integer.MAX_VALUE;

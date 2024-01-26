@@ -1,3 +1,5 @@
+package arrays;
+
 public class QuickSort {
     public static int partioning(int[] input,int startIndex, int endIndex){
         int pivot=input[endIndex];

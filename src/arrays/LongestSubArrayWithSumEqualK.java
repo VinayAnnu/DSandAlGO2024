@@ -1,3 +1,5 @@
+package arrays;
+
 public class LongestSubArrayWithSumEqualK {
     //brute force
     // public static int longestSubarrayWithSumK(int []a, long k) {//o(n^2)

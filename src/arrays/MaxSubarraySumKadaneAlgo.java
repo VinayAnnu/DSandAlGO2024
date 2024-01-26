@@ -1,3 +1,5 @@
+package arrays;
+
 public class MaxSubarraySumKadaneAlgo {
     public static long maxSubarraySum(int[] arr, int n) {
         // write your code here//kadane algorithm
