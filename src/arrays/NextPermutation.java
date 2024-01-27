@@ -1,12 +1,5 @@
 package arrays;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
-
-import static java.util.Collections.swap;
-
 public class NextPermutation {
     public static void nextPermutation(int[] nums) {
         int index=-1;
