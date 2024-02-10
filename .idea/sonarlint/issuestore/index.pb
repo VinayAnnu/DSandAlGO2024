@@ -23,8 +23,6 @@ M
 src/arrays/TwoSumProblem.java,4/2/425a0b6a225465ffa9388cb289e0160828d7ea5d
 Q
 !src/arrays/ZeroOneTwoSorting.java,4/e/4edd1947cc273f685e8d909780c1ebe48aa0941c
-O
-src/arrays/MajorityElement.java,7/0/70a455b0989518050dd09f7ed06a5784728a0ccf
 \
 ,src/arrays/LongestSubArrayWithSumEqualK.java,6/7/67deaf601553567878b673a4ae01bc573e3ca188
 N
@@ -75,3 +73,7 @@ V
 -src/StrategyDesignPattern/OffRoadVehicle.java,9/6/966977c6938a1418a08a761e8f96db3a880a6bb1
 S
 #src/StrategyDesignPattern/Main.java,7/4/748a651e9368f4edaca1f8423a9b818bb105e335
+g
+7src/arrays/MajorityElementAppearsMoreThanNby2Times.java,8/3/83ac8444d92a23541da89c546f6fa1b4a052956b
+N
+src/arrays/PascalTriangle.java,c/d/cda0fba71c2dc8f02963991eae678ac7090ce3a5

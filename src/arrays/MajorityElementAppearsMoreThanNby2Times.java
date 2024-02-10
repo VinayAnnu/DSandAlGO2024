@@ -1,6 +1,6 @@
 package arrays;
 
-public class MajorityElement {
+public class MajorityElementAppearsMoreThanNby2Times {
     public static int majorityElement(int []nums) {
         int element=-1,count=0;
         for(int i=0;i<nums.length;i++){
