@@ -77,3 +77,13 @@ g
 7src/arrays/MajorityElementAppearsMoreThanNby2Times.java,8/3/83ac8444d92a23541da89c546f6fa1b4a052956b
 N
 src/arrays/PascalTriangle.java,c/d/cda0fba71c2dc8f02963991eae678ac7090ce3a5
+g
+7src/arrays/MajorityElementAppearsMoreThanNby3Times.java,6/3/639cdd4dc1b3e4335d4d9323e2adc08868645ca7
+H
+src/arrays/ThreeSum.java,f/a/fa3ea222b3b288753953a3cb074ac2433b33420a
+G
+src/arrays/FourSum.java,7/e/7e67f82e32f1f32a61414f06f7961cf08a849368
+W
+'src/arrays/CountSubarrayXorEqualsK.java,2/5/25868cc2b6648f8b8faafffbcb4bf5962e0ad52e
+Y
+)src/arrays/MergeOverlappingIntervals.java,8/0/808103c3b706dccbf6fcf8f2cc9114523c5d56f6

@@ -26,13 +26,11 @@ public class LongestSubArrayWithSumEqualK {
     //     for(int i=0;i<a.length;i++){
     //         sum+=a[i];
     //         if(sum==k){
-    //             legthLongestSubArray=i+1;
+    //             legthLongestSubArray=Math.max(legthLongestSubArray,i+1);
     //         }
-    //         else if(sum>k){
-    //             long temp = sum-k;
-    //             if(hm.containsKey(temp)){
-    //                 legthLongestSubArray=Math.max(legthLongestSubArray,i-hm.get(temp));
-    //             }
+    //         long rem = sum-k;
+    //         if(hm.containsKey(rem)){
+    //             legthLongestSubArray=Math.max(legthLongestSubArray,i-hm.get(rem));
     //         }
     //         if(!hm.containsKey(sum)){
     //             hm.put(sum,i);
