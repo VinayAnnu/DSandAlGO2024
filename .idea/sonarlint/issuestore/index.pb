@@ -87,3 +87,21 @@ W
 'src/arrays/CountSubarrayXorEqualsK.java,2/5/25868cc2b6648f8b8faafffbcb4bf5962e0ad52e
 Y
 )src/arrays/MergeOverlappingIntervals.java,8/0/808103c3b706dccbf6fcf8f2cc9114523c5d56f6
+^
+.src/arrays/FindMissingAndRepeatingNumbers.java,d/e/de1c8eecef8c6c0ffa554ab79f146f541145ab66
+I
+src/arrays/MergeSort.java,9/4/94aad9df9fe309080bb2cbe3682d7c099c3547c4
+e
+5src/arrays/MergeTwoSortedArraysWithoutExtraSpace.java,b/d/bd654c6d991408eb56f6ece0b1164fe937d350bb
+R
+"src/arrays/NumberOfInversions.java,5/0/5028fedb479518d80b4b16b32b3a3fefcb85a345
+L
+src/arrays/ReversePairs.java,e/1/e196583760fe669b1c92f236b193b96e67007194
+R
+"src/arrays/MaxProductSubarray.java,6/2/62cdfeb882745479a841ac2cedbb8bc46c2a1164
+R
+"src/BinarySearch/BinarySearch.java,3/0/3007ae6cc24ae659668868d1f31d5424e3135737
+P
+ src/BinarySearch/LowerBound.java,0/a/0a433050dc457edc125d167011dc490d525b8e5e
+P
+ src/BinarySearch/UpperBound.java,3/3/332368fe42739330842e840a20df1a04df1accd9
