@@ -105,3 +105,25 @@ P
  src/BinarySearch/LowerBound.java,0/a/0a433050dc457edc125d167011dc490d525b8e5e
 P
  src/BinarySearch/UpperBound.java,3/3/332368fe42739330842e840a20df1a04df1accd9
+g
+7src/BinarySearch/FirstAndLastPositionInSortedArray.java,3/a/3aeba55a58011a0b587fa37d0ab845a4b221228f
+h
+8src/BinarySearch/FindMinElementInRotatedSortedArray.java,4/7/4703f3ab803188755127c4ef84961ce7d7874d23
+j
+:src/BinarySearch/FindNoOfRotationInRotatedSortedArray.java,0/9/095d9d511a05a26d6be867c8720ad53398ac832e
+}
+Msrc/BinarySearch/SearchElementInRotatedSortedArrayHavingDuplicateElement.java,e/9/e9666e9d188ae09d09f7a782267a2e17043c2bbc
+x
+Hsrc/BinarySearch/SearchElementInRotatedSortedArrayHavingUniqElement.java,8/f/8f63fdb2aa539f41dd57807ac945ea2602d56e69
+a
+1src/BinarySearch/SingleElementInASortedArray.java,7/e/7e73b710369607228301b6e6006497c2987851c6
+U
+%src/BinarySearch/FindPeakElement.java,3/6/369e488878cacb383dd4f882dcce871e800a0093
+\
+,src/BinarySearch/FindSquareRootOfNumber.java,1/f/1f5a7ba50a7fda569cea52cbcb615c16dc11af48
+T
+$src/BinarySearch/FindNthRootOfM.java,e/2/e23a7951e73dcaa948e3a51dcbdcd26c9d1f9bb0
+W
+'src/BinarySearch/KokoEatingBananas.java,7/2/726e0f60b891e3d1272ec1133a81cae6751a3561
+P
+ src/BinarySearch/RoseGarden.java,6/1/610f83d4769a96f23eefed78ae0270bd103e84de
