@@ -127,3 +127,9 @@ W
 'src/BinarySearch/KokoEatingBananas.java,7/2/726e0f60b891e3d1272ec1133a81cae6751a3561
 P
  src/BinarySearch/RoseGarden.java,6/1/610f83d4769a96f23eefed78ae0270bd103e84de
+U
+%src/BinarySearch/SmallestDivisor.java,e/6/e6b2f47f048e8e7711e60299b510f0bc77534b07
+g
+7src/BinarySearch/CapacityToShipPackagesWithinDDays.java,8/2/82a2707576d6f44d3f24edfc6e1bf96a35e5ecee
+^
+.src/BinarySearch/KthMissingPositiveNumber.java,8/7/874fc6d57a95bbb4526105268ff9553bc28fc46f
