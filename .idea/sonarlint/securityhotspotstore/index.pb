@@ -133,3 +133,13 @@ g
 7src/BinarySearch/CapacityToShipPackagesWithinDDays.java,8/2/82a2707576d6f44d3f24edfc6e1bf96a35e5ecee
 ^
 .src/BinarySearch/KthMissingPositiveNumber.java,8/7/874fc6d57a95bbb4526105268ff9553bc28fc46f
+S
+#src/BinarySearch/AggresiveCows.java,d/f/df3c96e38c3e3cef14a066c3de8897da8386e789
+S
+#src/BinarySearch/AllocateBooks.java,c/6/c639ccc26f29a56adfec4d4a6141640d5654357e
+Z
+*src/BinarySearch/SplitArrayLargestSum.java,0/b/0beafb1e463bd07af2bbd3f85274ce6dc81f8b74
+W
+'src/BinarySearch/PaintersPartition.java,8/e/8e25fba0f2b9d1acea7c4081ca9e70bf7ff83402
+g
+7src/BinarySearch/MinimizeMaxDistBetweenGasStations.java,c/b/cb81d7d7bea1712d42e912547385b29c62d8fc6e
