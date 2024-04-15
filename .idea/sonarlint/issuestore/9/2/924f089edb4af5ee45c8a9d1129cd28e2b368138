@@ -1,22 +1,18 @@
 
 7
-java:S1220""Move this file to a named package.8üé‡£è1
+java:S1220""Move this file to a named package.8úÅ¼‰í1
 “
-java:S1130
-"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(º™Ú78şé‡£è1
-F	java:S106"+Replace this use of System.out by a logger.(Ú‚u8£óˆ£è1
-G	java:S106"+Replace this use of System.out by a logger.(ä»†¼8 é‰£è1
+java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(º™Ú78˜Ëê¼í1
+G	java:S106"+Replace this use of System.out by a logger.(ÿƒ’‰8™Ëê¼í1
 R
-java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ8£óˆ£è1
+java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ8Ñšöºí1
 \
-java:S1128"?Remove this unused import 'java.time.format.DateTimeFormatter'.(‰÷÷ª8£óˆ£è1
+java:S1128"?Remove this unused import 'java.time.format.DateTimeFormatter'.(‰÷÷ª8Ñšöºí1
 W
-java:S1128":Remove this unused import 'java.time.temporal.ChronoUnit'.(Á…§8£óˆ£è1
+java:S1128":Remove this unused import 'java.time.temporal.ChronoUnit'.(Á…§8Ñšöºí1
 O
-java:S1128"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8¤óˆ£è1
+java:S1128"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8Ñšöºí1
 c
-java:S1128"ARemove this unused import 'java.util.concurrent.ExecutorService'.(æ÷–£ùÿÿÿÿ8¤óˆ£è1
-C
-java:S1128"&Remove this unused import 'java.util'.(Î€ŒÙ8¤óˆ£è1
+java:S1128"ARemove this unused import 'java.util.concurrent.ExecutorService'.(æ÷–£ùÿÿÿÿ8Ñšöºí1
 ]
-java:S1128";Remove this unused import 'java.util.concurrent.Executors'.(äåÒÛÿÿÿÿÿ8¤óˆ£è1
+java:S1128";Remove this unused import 'java.util.concurrent.Executors'.(äåÒÛÿÿÿÿÿ8Ñšöºí1
