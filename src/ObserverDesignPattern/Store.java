@@ -19,5 +19,6 @@ public class Store {
         stockObservable.add(observer3);
 
         stockObservable.setStockCount(10);
+        //stockObservable.setStockCount(5);
     }
 }

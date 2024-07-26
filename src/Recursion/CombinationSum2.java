@@ -42,38 +42,66 @@ public class CombinationSum2 {
 //    }
 
 
-    public static void combSum(int index, ArrayList<Integer> ARR, int B, int sum, ArrayList<Integer> al, ArrayList<ArrayList<Integer>> res) {
-        if (sum == B) {
-            res.add(new ArrayList<>(al));
-            return;
-        }
+//    public static void combSum(int index, ArrayList<Integer> ARR, int B, int sum, ArrayList<Integer> al, ArrayList<ArrayList<Integer>> res) {
+//        if (sum == B) {
+//            res.add(new ArrayList<>(al));
+//            return;
+//        }
+//
+//        for (int i = index; i < ARR.size(); i++) {
+//            if (i > index && ARR.get(i) == ARR.get(i - 1)) {
+//                continue;
+//            }
+//
+//            sum += ARR.get(i);
+//            al.add(ARR.get(i));
+//            combSum(i + 1, ARR, B, sum, al, res);
+//            sum -= ARR.get(i);
+//            al.remove(al.size() - 1);
+//        }
+//    }
+//    public static ArrayList<ArrayList<Integer>> combinationSum2(ArrayList<Integer> arr, int n, int target)
+//    {
+//        Collections.sort(arr);
+//        ArrayList<ArrayList<Integer>> res =new ArrayList<>();
+//        ArrayList<Integer> al =new ArrayList<>();
+//        combSum(0,arr,target,0,al,res);
+//        return res;
+//    }
 
-        for (int i = index; i < ARR.size(); i++) {
-            if (i > index && ARR.get(i) == ARR.get(i - 1)) {
+    private static void combSum(int index, ArrayList<Integer> arr, int target, ArrayList<Integer> al, ArrayList<ArrayList<Integer>> res) {
+        if(target==0){
+            res.add(new ArrayList<>(al));
+        }
+        for(int i=index;i<arr.size();i++){
+            if(i>index && arr.get(i) == arr.get(i-1)){
                 continue;
             }
+            if(arr.get(i)>target){
+                break;
+            }
 
-            sum += ARR.get(i);
-            al.add(ARR.get(i));
-            combSum(i + 1, ARR, B, sum, al, res);
-            sum -= ARR.get(i);
-            al.remove(al.size() - 1);
+            al.add(arr.get(i));
+            combSum(i+1,arr,target-arr.get(i),al,res);
+            al.remove(al.size()-1);
         }
     }
-    public static ArrayList<ArrayList<Integer>> combinationSum2(ArrayList<Integer> arr, int n, int target)
+
+    public static ArrayList<ArrayList<Integer>> combinationSum2(ArrayList<Integer> arr, int target)
     {
         Collections.sort(arr);
         ArrayList<ArrayList<Integer>> res =new ArrayList<>();
         ArrayList<Integer> al =new ArrayList<>();
-        combSum(0,arr,target,0,al,res);
+        combSum(0,arr,target,al,res);
         return res;
     }
 
+
     public static void main(String[] args) {
         ArrayList<Integer> arr = new ArrayList<>();
-        arr.add(1);arr.add(2);arr.add(3);arr.add(1);
+        arr.add(1);arr.add(2);arr.add(3);arr.add(1);arr.add(2);
         int k =5;
-        ArrayList<ArrayList<Integer>> combinationSum = combinationSum2(arr,4,k);
+        ArrayList<ArrayList<Integer>> combinationSum = combinationSum2(arr,k);
         System.out.println("All comibations : "+combinationSum);
     }
 }

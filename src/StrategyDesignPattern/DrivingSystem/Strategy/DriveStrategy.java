@@ -1,4 +1,4 @@
-package StrategyDesignPattern.Strategy;
+package StrategyDesignPattern.DrivingSystem.Strategy;
 
 public interface DriveStrategy {
     public void drive();

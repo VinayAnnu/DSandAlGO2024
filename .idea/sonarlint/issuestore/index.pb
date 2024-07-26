@@ -173,3 +173,15 @@ L
 src/Recursion/SubsetSum.java,f/1/f12e9e05dc2bd4f8fa7183e870beaadc4ebc68f1
 ]
 -src/Recursion/SubsetSum2AllUniqueSubsets.java,1/3/130feba7cd4f052cb6a73a90c8cfcd7b9e2413df
+N
+src/Recursion/Permutation.java,c/3/c37e3f9a6d791a055a32c56ccb21902b044ab4ee
+J
+src/Recursion/NQueens.java,2/1/212abb07bb92e0edeec5f586aa9e71a76b08efa4
+_
+/src/Recursion/PrintSubsequencesWhoseSumEqK.java,9/e/9eb0dc87c412586c7e01400e330021e416a806b2
+d
+4src/Recursion/PrintAnyOneSubsequenceWhoseSumEqK.java,6/1/61d119624e6d1616aa52f3c37b5712b8f1676605
+_
+/src/Recursion/CountSubsequencesWhoseSumEqK.java,8/5/85a2c72f74fd93e3c698fd7eef2b6e2e4903b433
+^
+.src/CsvReadAndFetchDataFromDbAndSaveInCsv.java,9/a/9a429acb0514be8c25ec2686e4ef21a786306c08
