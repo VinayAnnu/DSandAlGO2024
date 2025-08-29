@@ -7,7 +7,8 @@ import java.util.List;
 
 class TreeNode {
     int val;
-    TreeNode left,right;
+    TreeNode left;
+    TreeNode right;
     TreeNode(int val){
         this.val=val;
         left=right=null;
