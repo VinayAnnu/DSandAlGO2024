@@ -7,10 +7,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.Queue;
 
-class Pair {
+class PairD {
     int node;
     int parent;
-    Pair(int node, int parent) {
+    PairD(int node, int parent) {
         this.node = node;
         this.parent = parent;
     }
@@ -41,19 +41,19 @@ class CycleDetectionUndirectedGraphBFS {
     }
 
     public boolean detectCycle(Map<Integer, List<Integer>> adj, boolean[] visited, int start) {
-        Queue<Pair> queue = new ArrayDeque<>();
-        queue.offer(new Pair(start, -1));
+        Queue<PairD> queue = new ArrayDeque<>();
+        queue.offer(new PairD(start, -1));
         visited[start] = true;
 
         while (!queue.isEmpty()) {
-            Pair p = queue.poll();
+            PairD p = queue.poll();
             int node = p.node;
             int parent = p.parent;
 
             for (int neighbour : adj.getOrDefault(node, new ArrayList<>())) {
                 if (!visited[neighbour]) {
                     visited[neighbour] = true;
-                    queue.offer(new Pair(neighbour, node));
+                    queue.offer(new PairD(neighbour, node));
                 } else if (neighbour != parent) {
                     return true; // found cycle
                 }
