@@ -8,7 +8,7 @@ public class BellmanFord_GeeksForGeeks {
         int[] distance = new int[V];
         Arrays.fill(distance,(int)1e8);
         distance[src]=0;
-        //n-1 times relaxation
+        //n-1 times relaxation..
         for(int i=0;i<V-1;i++){
             for(int[] arr:edges){
                 int u=arr[0];
