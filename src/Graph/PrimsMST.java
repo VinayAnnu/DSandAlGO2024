@@ -15,7 +15,7 @@ class Tuple{
         this.parent=parent;
     }
 }
-public class MinimumSpanningTreePrimsAlgo {
+public class PrimsMST {
     public int spanningTree(int V, int[][] edges) {
         Map<Integer, List<int[]>> adj = new HashMap<>();
         for(int[] x:edges){
@@ -53,7 +53,7 @@ public class MinimumSpanningTreePrimsAlgo {
     }
 
     public static void main(String[] args) {
-        MinimumSpanningTreePrimsAlgo minimumSpanningTree = new MinimumSpanningTreePrimsAlgo();
+        PrimsMST minimumSpanningTree = new PrimsMST();
         int V = 3, E = 3;
         int[][] Edges = {{0, 1, 5}, {1, 2, 3}, {0, 2, 1}};
         System.out.println("MST weight "+minimumSpanningTree.spanningTree(V,Edges));
