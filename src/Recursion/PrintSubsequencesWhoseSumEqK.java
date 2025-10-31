@@ -12,12 +12,12 @@ public class PrintSubsequencesWhoseSumEqK {
             }
             return;
         }
-
-        sum+=arr[index];
+        //pick
         al.add(arr[index]);
-        printSubsequenceSumEqualK(arr, index+1, k, sum, al, listOfSubsequence);
+        printSubsequenceSumEqualK(arr, index+1, k, sum+arr[index], al, listOfSubsequence);
         al.remove(al.size()-1);
-        sum-=arr[index];
+
+        //not pick
         printSubsequenceSumEqualK(arr, index+1, k, sum, al, listOfSubsequence);
     }
 

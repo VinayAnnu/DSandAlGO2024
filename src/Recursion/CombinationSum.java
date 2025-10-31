@@ -42,7 +42,7 @@ public class CombinationSum {
 
     public static void main(String[] args) {
         int[] arr = new int[]{13,3,2,17};
-        int k =13;//14
+        int k =13;
         List< Integer > al = new ArrayList<>();
         List<List< Integer >> res = new ArrayList<>();
         combSum1(0,arr,k,al,res);
@@ -56,16 +56,11 @@ public class CombinationSum {
             }
             return;
         }
-
         if(k<0){
             return;
         }
-
-        k = k-arr[index];
         al.add(arr[index]);
-        combSum1(index, arr, k, al, res);
-
-        k = k + arr[index];
+        combSum1(index, arr, k-arr[index], al, res);
         al.remove(al.size()-1);
         combSum1(index+1, arr, k, al, res);
     }

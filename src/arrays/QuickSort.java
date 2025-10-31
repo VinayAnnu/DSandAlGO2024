@@ -1,24 +1,24 @@
 package arrays;
 
 public class QuickSort {
+    public static void swap(int[] arr, int i,int j){
+        int temp=arr[i];
+        arr[i]=arr[j];
+        arr[j]=temp;
+    }
     public static int partioning(int[] input,int startIndex, int endIndex){
         int pivot=input[endIndex];
         int i=startIndex-1;
         for(int j=startIndex;j<endIndex;j++){
             if(input[j]<=pivot){
                 i=i+1;
-                int temp=input[i];
-                input[i]=input[j];
-                input[j]=temp;
+                swap(input,i,j);
             }
         }
-        int x= input[i+1];
-        input[i+1]=pivot;
-        input[endIndex]=x;
+        swap(input,i+1,endIndex);
         return i+1;
     }
     public static void quickSort(int[] input,int startIndex, int endIndex) {
-
         if(startIndex<endIndex){
             int partition = partioning(input,startIndex,endIndex);
             quickSort(input,startIndex, partition-1);

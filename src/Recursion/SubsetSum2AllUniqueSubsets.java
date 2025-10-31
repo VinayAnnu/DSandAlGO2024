@@ -32,7 +32,7 @@ public class SubsetSum2AllUniqueSubsets {
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[]{12, 15, 20};
+        int[] arr = new int[]{12, 15, 20,15};
         printSubsets(arr);
     }
 }
