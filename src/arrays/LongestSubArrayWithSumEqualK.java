@@ -21,22 +21,20 @@ public class LongestSubArrayWithSumEqualK {
     //     // TC-O(N*1) in best and average case using unordered map that is HashMap
     //     //TC-O(N*N) in worst case using unordered map that is HashMap due to collision
     //     //TC- O(NlogN) in best,avg,worst case suing ordered map taht is TreeMap
-    //     int legthLongestSubArray=0; long sum=0;
-    //     HashMap<Long,Integer> hm = new HashMap<>();
-    //     for(int i=0;i<a.length;i++){
-    //         sum+=a[i];
-    //         if(sum==k){
-    //             legthLongestSubArray=Math.max(legthLongestSubArray,i+1);
-    //         }
-    //         long rem = sum-k;
-    //         if(hm.containsKey(rem)){
-    //             legthLongestSubArray=Math.max(legthLongestSubArray,i-hm.get(rem));
-    //         }
-    //         if(!hm.containsKey(sum)){
-    //             hm.put(sum,i);
-    //         }
-    //     }
-    //     return legthLongestSubArray;
+//    int n = arr.length;
+//    Map<Integer,Integer> sumVsIndex = new HashMap<>();
+//    int res=0,prefSum=0;
+//        for(int i=0;i<n;i++) {
+//        prefSum=prefSum+arr[i];
+//        sumVsIndex.putIfAbsent(prefSum,i);
+    // Check if the entire prefix sums to k
+//        if(prefSum==k){
+//            res=i+1;
+//        }else if(sumVsIndex.containsKey(prefSum-k)){
+//            res = Math.max(res, i-sumVsIndex.get(prefSum-k));
+//        }
+//    }
+//        return res;
     // }
 
 

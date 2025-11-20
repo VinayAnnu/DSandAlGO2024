@@ -9,6 +9,7 @@ public class MobileAlertObserverImpl implements NotificationAlertObserver{
     public MobileAlertObserverImpl(String userName, StockObservable stockObservable) {
         this.userName = userName;
         this.stockObservable = stockObservable;
+        stockObservable.add(this);
     }
 
     @Override

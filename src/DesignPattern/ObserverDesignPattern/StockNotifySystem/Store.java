@@ -14,9 +14,9 @@ public class Store {
         NotificationAlertObserver observer2 = new EmailAlertObserverImpl("aditya@gmail.com", stockObservable);
         NotificationAlertObserver observer3 = new MobileAlertObserverImpl("pawan.kr", stockObservable);
 
-        stockObservable.add(observer1);
-        stockObservable.add(observer2);
-        stockObservable.add(observer3);
+        //stockObservable.add(observer1);
+        //stockObservable.add(observer2);
+        //stockObservable.add(observer3);
 
         stockObservable.setStockCount(10);
         //stockObservable.setStockCount(5);
